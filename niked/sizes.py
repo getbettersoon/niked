@@ -2,6 +2,9 @@ from selenium.webdriver.common.by import By
 
 
 def get_sizes_skus(driver):
+    """
+    Returns sizes and their individual SKUs for selected shoe
+    """
     
     sizes_table = driver.find_element(By.CSS_SELECTOR,
                                       'div.mt2-sm.css-12whm6j')
